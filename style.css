@@ -1,0 +1,30 @@
+/*
+Colors in Palette
+Color	   Hex	    RGB
+        #b2d8d8	(178,216,216)
+        #66b2b2	(102,178,178)
+        #008080	(0,128,128)
+        #006666	(0,102,102)
+        #004c4c	(0,76,76)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #004c4c;
+}
+
+.titulo{
+    font-family: 'Castoro Titling', cursive;
+    color: #b2d8d8;
+    font-weight: 400;
+    font-size: 2rem;
+    border-bottom: #b2d8d8 1px solid;
+    padding: 1rem;
+}
